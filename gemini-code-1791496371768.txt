@@ -1,0 +1,31 @@
+Actúa como un desarrollador Full-Stack Senior y Diseñador UI/UX. Crea una aplicación web moderna, responsiva y rápida para consultar y analizar estadísticas de los clubes participantes en la UEFA Champions League.
+
+### 1. Stack Tecnológico Sugerido:
+- Framework: Next.js (App Router) o React + Vite.
+- Estilos: Tailwind CSS con componentes estilo shadcn/ui.
+- Iconos: Lucide-react.
+- Gráficos: Recharts o Chart.js.
+- Fuente de datos: Estructura una API mock interna o prepara la integración para APIs de fútbol gratuitas/freemium (como API-Football / football-data.org) mediante llamadas tipadas con TypeScript.
+
+### 2. Arquitectura de la Interfaz (UI/UX):
+- Tema oscuro deportivo moderno (inspirado en la identidad visual de la Champions League: azul marino profundo, blanco, acentos en cian brillante o dorado).
+- Header: Logotipo, buscador global con autocompletado y selector de temporada.
+- Vista Principal (Dashboard):
+  - Buscador predictivo en tiempo real para encontrar cualquier equipo por nombre o país.
+  - Tarjetas de acceso rápido a los clubes más buscados.
+  - Tabla de posiciones/clasificación interactiva (fase de liga) con filtros por puntos, goles a favor, goles en contra y diferencial.
+- Vista de Detalle del Club:
+  - Cabecera: Escudo, país, estadio, entrenador y resumen de forma reciente (últimos 5 partidos: V-E-D).
+  - Métricas Clave (KPI Cards): Posesión media, goles anotados por partido, goles encajados, porcentaje de acierto de pase, porterías a cero y tarjetas.
+  - Pestañas de análisis:
+    1. Rendimiento: Gráfico de radar con métricas ofensivas vs. defensivas en comparación con la media del torneo.
+    2. Plantilla: Lista de jugadores con estadísticas básicas (goles, asistencias, minutos).
+    3. Partidos: Calendario de encuentros recientes y próximos con resultados detallados.
+  - Comparador de Clubes (Head-to-Head): Herramienta para seleccionar dos clubes y comparar sus métricas cara a cara en gráficos de barras paralelos.
+
+### 3. Requisitos Funcionales y Código:
+- Código limpio, modular y completamente tipado con TypeScript.
+- Manejo de estados de carga (skeletons), estados vacíos (empty states) y control de errores si no se encuentran datos.
+- Incluye un archivo mock con datos realistas de al menos 6 equipos punteros para que la web funcione de forma interactiva inmediatamente al clonar el repositorio.
+
+Por favor, proporciona el código completo de los componentes principales, la estructura de carpetas y los tipos de datos necesarios para poner el proyecto en marcha.
